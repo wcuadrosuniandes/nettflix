@@ -143,6 +143,10 @@ hr.divider {
     /* Asegura que esté por encima del video */
 }
 
+.modal-video {
+    background-color: rgb(45, 45, 45, 0.95);
+    color: white;
+}
 
 .img-overlay {
     height: 160px;
@@ -172,15 +176,20 @@ hr.divider {
 
 .card-form {
     color: #fff;
+    background-color: rgb(86, 77, 77, 0.50);
 }
 
-footer {
-    background-color: black !important;
+.bg-footer {
+    background-color: rgb(0, 0, 0, 0.95) !important;
     color: #fff;
 }
 
 .navbar {
     background-color: rgb(0, 0, 0, 0.80);
+}
+
+.btn-submit {
+    background-color: #db0000 !important;
 }
 
 @keyframes pulsate-play-btn {
